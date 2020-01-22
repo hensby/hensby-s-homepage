@@ -45,6 +45,14 @@ date_format = "Jan 2020"
   * curriculum design
   * Teaching Informatics contest courses(Algorithm and Basic syntax format)
   """
-
+  
+[[experience]]
+  title = "Software Engineer"
+  company = "Suzhou Gaobo Inno Information Technology Co, Ltd."
+  company_url = ""
+  location = "Suzhou, China"
+  date_start = "2016-08-01"
+  date_end = "2016-10-01"
+  description = """Commodity Management Software development. Designed the management back-end system. Implemented the Database operations"""
   
 +++
