@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Hengchao wang
 
 # Username (this should match the folder name)
 authors:
@@ -10,20 +10,20 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Computer Science, M.S.
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: UT-Arlington University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
+- Software Engineering
 - Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Mathematic
 
 education:
   courses:
