@@ -39,7 +39,6 @@ date_format = "Jan 2006"
   location = "Beijing, China"
   date_start = "2018-05-01"
   date_end = "2019-05-31"
-  <!-- description = """Taught electronic engineering and researched semiconductor physics.""" -->
   Responsibilities include:
   
   * curriculum design
