@@ -49,7 +49,7 @@ social:
   icon_pack: fab
   link: https://www.instagram.com/derrick_wanghc/
 - icon: facebook
-  icon_pack: facebook
+  icon_pack: fab
   link: https://www.facebook.com/hengchao.wang.35
 - icon: github
   icon_pack: fab
