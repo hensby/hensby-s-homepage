@@ -33,12 +33,18 @@ date_format = "Jan 2020"
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "lecturer"
+  company = "Beijing Judao Youda Network Technology Co, Ltd."
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Beijing, China"
+  date_start = "2018-05-01"
+  date_end = "2019-05-31"
+  description = """
+  Responsibilities include:
+  
+  * curriculum design
+  * Teaching Informatics contest courses(Algorithm and Basic syntax format)
+  """
+
   
 +++
