@@ -70,5 +70,5 @@ user_groups:
 - Visitors
 ---
 
-Hengchao(Derrick) Wang is a Computer Science, M.S. at the UT-Arlington. He has two master degree. One is Software Engineering in BUPT, China. The other one is Computer Science in UT-Arlington. He has been an algorithm engineer, software engineer, and a lecturer in informatics course. Participated in the implementation of the Named Entity Recognition (NER) Algorithm, Emotional Analysis of short Text Algorithm, Transfer Learning Algorithms. Know Back-end technology (SpringBoot) and Android Client development. Have rich experience in Artificial Intelligence and software development.
+Hengchao(Derrick) Wang is a graduated student at the UT-Arlington. He has two master degree. One is Software Engineering in BUPT, China. The other one is Computer Science in UT-Arlington. He has been an algorithm engineer, software engineer, and a lecturer in informatics course. Participated in the implementation of the Named Entity Recognition (NER) Algorithm, Emotional Analysis of short Text Algorithm, Transfer Learning Algorithms. Know Back-end technology (SpringBoot) and Android Client development. Have rich experience in Artificial Intelligence and software development.
 
