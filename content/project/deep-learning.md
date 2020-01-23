@@ -3,17 +3,17 @@
 date = 2017-09-27T00:00:00
 
 # Project title.
-title = "IM instant messaging software"
+title = "Battery fault diagnosis project"
 
 # Project summary to display on homepage.
-summary = "IM instant messaging software for small company."
+summary = "Battery fault diagnosis project based on NASA data"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "bubbles.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Software"]
+tags = ["Deep Learning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -28,11 +28,12 @@ caption = "My caption :smile:"
 
 +++
 
--Laboratory project, a Instant Messaging Software for small companies.
+-Laboratory project. Study battery loss curves and predict whether aging. Based on battery aging data. 
 
--IM instant messaging software Android client and background development. Achieve messaging function and put the product online.
+-Using Tensor-flow tools and design RNN-LSTM neural network model.
 
--Android client implement group chat, chat and friend management. Using MVC coding model, SQLite database. Using GridView and GridLayout, etc. Solve Data synchronization issues by adding Timestamp. 
+-The initial data is from NASA laboratory data. Using battery aging data to train the model.
 
--In background system, implement Message forwarding, message and user management.Using Java,Tcp Socket and Http protocol. Using delayed queue, detached Picture server and design the timeout or retry mechanism to improve performance of high concurrent requests. 
+-Finished model and get more than 95% accuracy. Complete project review.
+
 
