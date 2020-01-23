@@ -36,6 +36,6 @@ subtitle = ""
   icon = "database"
   icon_pack = "fas"
   name = "MySQL"
-  description = "90%"
+  description = "60%"
 
 +++
