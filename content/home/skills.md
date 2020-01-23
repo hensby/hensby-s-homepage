@@ -32,4 +32,10 @@ subtitle = ""
   name = "Android"
   description = "90%"
 
+  [[feature]]
+  icon = "database"
+  icon_pack = "fab"
+  name = "MySQL"
+  description = "90%"
+
 +++
