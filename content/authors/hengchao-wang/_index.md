@@ -11,6 +11,7 @@ superuser: true
 
 # Role/position
 role: Computer Science, M.S.
+Software Engineering, M.Eng.
 
 # Organizations/Affiliations
 organizations:
@@ -70,6 +71,5 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hengchao(Derrick) Wang is a Computer Science, M.S. at the UT-Arlington. He has two master degree. One is Software Engineering, the other is Computer Science. He has been an algorithm engineer, software engineer, and a lecturer in informatics course. Have rich experience in software development.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
