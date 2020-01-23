@@ -10,8 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Computer Science, M.S.
-Software Engineering, M.Eng.
+role: Computer Science, M.S. Software Engineering, M.Eng.
 
 # Organizations/Affiliations
 organizations:
