@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:test@example.org"  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:hengchao.wang@mavs.uta.edu"  # For a direct email link, use "mailto:test@example.org".
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/derrick_wanghc/
