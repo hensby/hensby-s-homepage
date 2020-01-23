@@ -1,19 +1,19 @@
 +++
 # Date this page was created.
-date = 2016-04-27T00:00:00
+date = 2017-09-27T00:00:00
 
 # Project title.
-title = "Deep Learning"
+title = "IM instant messaging software"
 
 # Project summary to display on homepage.
-summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary = "IM instant messaging software for small company."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "bubbles.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Deep Learning"]
+tags = ["Software"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
