@@ -28,8 +28,11 @@ caption = "My caption :smile:"
 
 +++
 
-Laboratory project, a Instant Messaging Software for small companies.
+-Laboratory project, a Instant Messaging Software for small companies.
+
 -IM instant messaging software Android client and background development. Achieve messaging function and put the product online.
+
 -Android client implement group chat, chat and friend management. Using MVC coding model, SQLite database. Using GridView and GridLayout, etc. Solve Data synchronization issues by adding Timestamp. 
+
 -In background system, implement Message forwarding, message and user management.Using Java,Tcp Socket and Http protocol. Using delayed queue, detached Picture server and design the timeout or retry mechanism to improve performance of high concurrent requests. 
 
