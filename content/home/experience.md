@@ -8,6 +8,8 @@ weight = 40  # Order that this section will appear.
 title = "Experience"
 subtitle = ""
 
+page_type = "Experience"
+
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
