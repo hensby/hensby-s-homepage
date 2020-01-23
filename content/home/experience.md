@@ -56,7 +56,7 @@ date_format = "Jan 2006"
   date_start = "2016-08-01"
   date_end = "2016-10-01"
   description = """Commodity Management Software development. Designed the management back-end system. Implemented the Database operations"""
-  
+<!--   
 [design.background]
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
@@ -75,6 +75,6 @@ date_format = "Jan 2006"
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  # text_color_light = true   -->
   
 +++
