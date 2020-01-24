@@ -21,7 +21,7 @@ weight = 60
   
   # Background color.
   # color = "navy"
-  color = "#333"
+  color = "#222"
 
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
