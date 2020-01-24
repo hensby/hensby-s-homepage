@@ -27,6 +27,7 @@ date_format = "Jan 2006"
   date_start = "2018-08-01"
   date_end = "2019-09-01"
   description = """
+  
   Responsibilities include:
   
   * Named Entity Recognition (NER)
