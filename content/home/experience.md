@@ -64,7 +64,7 @@ date_format = "Jan 2006"
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  color = "#333"
+  # color = "#333"
   
   # Background gradient.
   gradient_start = "DeepSkyBlue"
