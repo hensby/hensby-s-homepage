@@ -33,6 +33,12 @@ subtitle = ""
   description = "90%"
 
   [[feature]]
+  icon = "laptop-code"
+  icon_pack = "fas"
+  name = "Machine Learning"
+  description = "70%"
+
+  [[feature]]
   icon = "database"
   icon_pack = "fas"
   name = "MySQL"
