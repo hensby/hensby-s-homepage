@@ -9,7 +9,7 @@ title = "Battery fault diagnosis project"
 summary = "Battery fault diagnosis project based on NASA data"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bubbles.jpg"
+image_preview = "bubbles77.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
