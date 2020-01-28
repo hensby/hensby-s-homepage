@@ -9,22 +9,22 @@ title = "Intelligent case analysis system"
 summary = "Analysis of the police record data get crime name, address, and some other information. Find connection of case."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "static/img/bubbles.jpg"
+image_preview = "scraping_propolis.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["Deep Learning"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+# external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-#[header]
-#image = "static/img/headers/bubbles-wide.jpg"
-#caption = "My caption :smile:"
+[header]
+image = "static/img/headers/bubbles-wide.jpg"
+caption = "My caption :smile:"
 
 
 +++
