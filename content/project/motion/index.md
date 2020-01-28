@@ -1,6 +1,6 @@
 ---
-title: Intelligent case analysis system
-summary: Analysis of the police record data get crime name, address, and some other information. Find connection of case.
+title: Emotional Analysis of News Text development
+summary: Using google bert_zh_L-12 pretraining model. Based on Transfer Learning Algorithms.
 tags:
 - Deep Learning
 date: "2019-04-27T00:00:00Z"
@@ -30,6 +30,8 @@ image:
 slides: example
 ---
 
--Implemented Named Entity Recognition (NER) Algorithm development. Analysis of the police record data get crime name, address, and some other information. Using LSTM network to Determine entity’s boundaries and CRF to get the Category of entity.
+-Emotional Analysis of News Text development. Using google bert_zh_L-12 pretraining model. 
 
-- Implemented Graph Storage and Clustering Algorithms development. To analyze, storage and cluster the entity after NER algorithm analysis. Implement Force Atlas, Spectral clustering and Visualization by Gephi. Using Python, and Neo4j database.
+-Based on Transfer Learning Algorithms.
+
+
