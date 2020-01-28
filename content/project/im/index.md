@@ -1,32 +1,34 @@
-+++
-# Date this page was created.
-date = 2017-09-27T00:00:00
-
-# Project title.
-title = "IM instant messaging software"
-
-# Project summary to display on homepage.
-summary = "IM instant messaging software for small company."
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bubbles.jpg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Software"]
+---
+title: IM instant messaging software
+summary: IM instant messaging software for small company.
+tags:
+- Software
+date: "2019-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link: ""
 
-# Does the project detail page use math formatting?
-math = false
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
 
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+#links:
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
+#url_code: ""
+#url_pdf: ""
+#url_slides: ""
+#url_video: ""
 
-+++
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: example
+---
 
 -Laboratory project, a Instant Messaging Software for small companies.
 
