@@ -19,16 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
+  organization = "Kaggle"
   organization_url = "https://www.kaggle.com/c/nlp-getting-started/overview/timeline"
   title = "Real or Not? NLP with Disaster Tweets"
   url = "files/Finally.ipynb"
   certificate_url = "https://www.kaggle.com/c/nlp-getting-started/overview/timeline"
   date_start = "2020-02-01"
-  date_end = ""
+  date_end = "2020-02-25"
   description = "Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies)."
 
-[[item]]
+<!-- [[item]]
   organization = "edX"
   organization_url = "https://www.edx.org"
   title = "Blockchain Fundamentals"
@@ -46,6 +46,6 @@ date_format = "Jan 2006"
   certificate_url = "https://www.datacamp.com"
   date_start = "2017-07-01"
   date_end = "2017-12-21"
-  description = ""
+  description = "" -->
 
 +++
