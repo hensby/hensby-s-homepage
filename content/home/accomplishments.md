@@ -20,13 +20,14 @@ date_format = "Jan 2006"
 
 [[item]]
   organization = "Coursera"
-  organization_url = "https://www.coursera.org"
+  organization_url = "https://www.kaggle.com/c/nlp-getting-started/overview/timeline"
   title = "Real or Not? NLP with Disaster Tweets"
   url = "files/Finally.ipynb"
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = "https://www.kaggle.com/c/nlp-getting-started/overview/timeline"
+  date_start = "2020-02-01"
   date_end = ""
-  description = ""
+  description = "Twitter has become an important communication channel in times of emergency.
+The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies)."
 
 [[item]]
   organization = "edX"
