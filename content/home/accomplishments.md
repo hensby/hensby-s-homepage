@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = "files/submit.jpg"
   date_start = "2020-02-01"
   date_end = "2020-02-25"
-  description = "Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies)."
+  description = "Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies).(notebook is in title, score is in certification)"
 
 # [[item]]
 #  organization = "edX"
