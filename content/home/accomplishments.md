@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = "files/submit.jpg"
   date_start = "2020-02-01"
   date_end = "2020-02-25"
-  description = "I use Naive Bayes and BiLSTM model to do prediction. (notebook is in title, score is in certification)"
+  description = "I use Naive Bayes (score: 0.80163) and BiLSTM model (score: 0.81595) to do prediction. There is alse a dataset posted in kaggle have the reality of the test data. So I analysis it too and get a submission which get 1.(You can click title to get notebook, certification to get the score, kaggle to get the problem page)"
 
 # [[item]]
 #  organization = "edX"
