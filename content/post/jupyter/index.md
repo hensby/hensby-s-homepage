@@ -1,6 +1,6 @@
 ---
 date: 2020-3-01
-title: My first blog post
+title: Assignment1
 ---
 
 
@@ -13,18 +13,6 @@ karas 2.3.1
 sklearn 0.22.1   
 platform: 
 I7-9700k GTX-1080ti
-
-
-
-```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
-```
-
-
-
-
-![png](./Finally_1_0.png)
 
 
 
