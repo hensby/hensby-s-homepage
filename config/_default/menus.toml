@@ -37,7 +37,7 @@
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
   name = "Homework"
-  url = "#accomplishments"
+  url = "#pages"
   weight = 70
 
 [[main]]
