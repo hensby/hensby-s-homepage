@@ -878,9 +878,5 @@ sub1 = merged_df[['id', 'target']]
 sub1.to_csv('submit_socialmedia_data.csv', index=False)
 
 ```
-
-
-```python
-
-```
+## Final Ranking
 ![png](./submit.jpg)
