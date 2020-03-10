@@ -4,6 +4,7 @@ title: Assignment1
 ---
 
 
+# Assignment1 —— Polynomial regression
 
 ```python
 import numpy as np
