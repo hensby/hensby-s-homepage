@@ -1,11 +1,3 @@
----
-date: 2020-3-01
-title: Assignment1
----
-
-
-# Assignment1 —— Polynomial regression
-
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
