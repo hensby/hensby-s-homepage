@@ -6,7 +6,7 @@ title: Assignment1
 
 # Assignment1 —— Polynomial regression
 
-[A post]({{< ref "/post/assignment/hengchao_01.ipynb" >}})
+[A post]({{< ref "/hengchao_01.ipynb" >}})
 
 ```python
 import numpy as np
