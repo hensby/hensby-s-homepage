@@ -6,6 +6,8 @@ title: Assignment1
 
 # Assignment1 —— Polynomial regression
 
+
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,10 +47,10 @@ for i in range(20):
     y[i] = math.sin(y[i])+ d[i]
 ```
 
-    [ 0.09096948  0.17355105  0.15875745 -0.01623883 -0.31071585  0.16550497
-     -0.38124526  0.26506175 -0.33448142 -0.31475344 -0.24434632  0.08521682
-     -0.09128369  0.10539469  0.22555599  0.04853751 -0.04680321  0.19909456
-     -0.02539505  0.0706098 ]
+    [-0.06889813  0.02674846  0.24665862 -0.05187796  0.03988177 -0.21398366
+     -0.13006871 -0.23040466 -0.00998632 -0.03663616 -0.08745814  0.0947099
+      0.1376655   0.33446974 -0.20939689  0.23393522 -0.10303335 -0.08627464
+     -0.29465245 -0.15252956]
     [0.         0.33069396 0.66138793 0.99208189 1.32277585 1.65346982
      1.98416378 2.31485774 2.64555171 2.97624567 3.30693964 3.6376336
      3.96832756 4.29902153 4.62971549 4.96040945 5.29110342 5.62179738
@@ -64,7 +66,7 @@ plt.scatter(x, y)
 
 
 
-    <matplotlib.collections.PathCollection at 0x1a3ec7ee10>
+    <matplotlib.collections.PathCollection at 0x1a435fecd0>
 
 
 
@@ -108,102 +110,102 @@ data
     <tr>
       <th>0</th>
       <td>0.000000</td>
-      <td>0.090969</td>
+      <td>-0.068898</td>
     </tr>
     <tr>
       <th>1</th>
       <td>0.052632</td>
-      <td>0.498251</td>
+      <td>0.351448</td>
     </tr>
     <tr>
       <th>2</th>
       <td>0.105263</td>
-      <td>0.772970</td>
+      <td>0.860871</td>
     </tr>
     <tr>
       <th>3</th>
       <td>0.157895</td>
-      <td>0.820928</td>
+      <td>0.785289</td>
     </tr>
     <tr>
       <th>4</th>
       <td>0.210526</td>
-      <td>0.658684</td>
+      <td>1.009282</td>
     </tr>
     <tr>
       <th>5</th>
       <td>0.263158</td>
-      <td>1.162089</td>
+      <td>0.782601</td>
     </tr>
     <tr>
       <th>6</th>
       <td>0.315789</td>
-      <td>0.534528</td>
+      <td>0.785705</td>
     </tr>
     <tr>
       <th>7</th>
       <td>0.368421</td>
-      <td>1.000786</td>
+      <td>0.505319</td>
     </tr>
     <tr>
       <th>8</th>
       <td>0.421053</td>
-      <td>0.141466</td>
+      <td>0.465961</td>
     </tr>
     <tr>
       <th>9</th>
       <td>0.473684</td>
-      <td>-0.150159</td>
+      <td>0.127958</td>
     </tr>
     <tr>
       <th>10</th>
       <td>0.526316</td>
-      <td>-0.408941</td>
+      <td>-0.252053</td>
     </tr>
     <tr>
       <th>11</th>
       <td>0.578947</td>
-      <td>-0.390731</td>
+      <td>-0.381237</td>
     </tr>
     <tr>
       <th>12</th>
       <td>0.631579</td>
-      <td>-0.827008</td>
+      <td>-0.598058</td>
     </tr>
     <tr>
       <th>13</th>
       <td>0.684211</td>
-      <td>-0.810379</td>
+      <td>-0.581304</td>
     </tr>
     <tr>
       <th>14</th>
       <td>0.736842</td>
-      <td>-0.771029</td>
+      <td>-1.205981</td>
     </tr>
     <tr>
       <th>15</th>
       <td>0.789474</td>
-      <td>-0.920863</td>
+      <td>-0.735465</td>
     </tr>
     <tr>
       <th>16</th>
       <td>0.842105</td>
-      <td>-0.883970</td>
+      <td>-0.940200</td>
     </tr>
     <tr>
       <th>17</th>
       <td>0.894737</td>
-      <td>-0.415118</td>
+      <td>-0.700487</td>
     </tr>
     <tr>
       <th>18</th>
       <td>0.947368</td>
-      <td>-0.350095</td>
+      <td>-0.619352</td>
     </tr>
     <tr>
       <th>19</th>
       <td>1.000000</td>
-      <td>0.070610</td>
+      <td>-0.152530</td>
     </tr>
   </tbody>
 </table>
@@ -252,52 +254,52 @@ train_data
     <tr>
       <th>0</th>
       <td>0.473684</td>
-      <td>-0.150159</td>
+      <td>0.127958</td>
     </tr>
     <tr>
       <th>1</th>
       <td>0.578947</td>
-      <td>-0.390731</td>
+      <td>-0.381237</td>
     </tr>
     <tr>
       <th>2</th>
       <td>1.000000</td>
-      <td>0.070610</td>
+      <td>-0.152530</td>
     </tr>
     <tr>
       <th>3</th>
       <td>0.947368</td>
-      <td>-0.350095</td>
+      <td>-0.619352</td>
     </tr>
     <tr>
       <th>4</th>
       <td>0.684211</td>
-      <td>-0.810379</td>
+      <td>-0.581304</td>
     </tr>
     <tr>
       <th>5</th>
       <td>0.263158</td>
-      <td>1.162089</td>
+      <td>0.782601</td>
     </tr>
     <tr>
       <th>6</th>
       <td>0.000000</td>
-      <td>0.090969</td>
+      <td>-0.068898</td>
     </tr>
     <tr>
       <th>7</th>
       <td>0.421053</td>
-      <td>0.141466</td>
+      <td>0.465961</td>
     </tr>
     <tr>
       <th>8</th>
       <td>0.157895</td>
-      <td>0.820928</td>
+      <td>0.785289</td>
     </tr>
     <tr>
       <th>9</th>
       <td>0.526316</td>
-      <td>-0.408941</td>
+      <td>-0.252053</td>
     </tr>
   </tbody>
 </table>
@@ -341,52 +343,52 @@ test_data
     <tr>
       <th>0</th>
       <td>0.736842</td>
-      <td>-0.771029</td>
+      <td>-1.205981</td>
     </tr>
     <tr>
       <th>1</th>
       <td>0.105263</td>
-      <td>0.772970</td>
+      <td>0.860871</td>
     </tr>
     <tr>
       <th>2</th>
       <td>0.052632</td>
-      <td>0.498251</td>
+      <td>0.351448</td>
     </tr>
     <tr>
       <th>3</th>
       <td>0.894737</td>
-      <td>-0.415118</td>
+      <td>-0.700487</td>
     </tr>
     <tr>
       <th>4</th>
       <td>0.210526</td>
-      <td>0.658684</td>
+      <td>1.009282</td>
     </tr>
     <tr>
       <th>5</th>
       <td>0.842105</td>
-      <td>-0.883970</td>
+      <td>-0.940200</td>
     </tr>
     <tr>
       <th>6</th>
       <td>0.315789</td>
-      <td>0.534528</td>
+      <td>0.785705</td>
     </tr>
     <tr>
       <th>7</th>
       <td>0.368421</td>
-      <td>1.000786</td>
+      <td>0.505319</td>
     </tr>
     <tr>
       <th>8</th>
       <td>0.789474</td>
-      <td>-0.920863</td>
+      <td>-0.735465</td>
     </tr>
     <tr>
       <th>9</th>
       <td>0.631579</td>
-      <td>-0.827008</td>
+      <td>-0.598058</td>
     </tr>
   </tbody>
 </table>
@@ -403,7 +405,7 @@ plt.scatter(X_test, Y_test, c = 'r')
 
 
 
-    <matplotlib.collections.PathCollection at 0x1a3ee09650>
+    <matplotlib.collections.PathCollection at 0x1a43793a10>
 
 
 
@@ -462,7 +464,7 @@ coef
 
 
 
-    array([ 0.        , -1.00122911])
+    array([ 0.        , -1.03980292])
 
 
 
@@ -483,7 +485,7 @@ coef
 
 
 
-    array([  0.        ,   9.23795405, -29.68640841,  20.45701177])
+    array([  0.        ,   9.05355623, -26.39654147,  17.21077736])
 
 
 
@@ -503,9 +505,9 @@ coef
 
 
 
-    array([ 0.00000000e+00, -6.82973462e+02,  1.35408646e+04, -1.09114700e+05,
-            4.75273573e+05, -1.23415196e+06,  1.96513606e+06, -1.87916231e+06,
-            9.88825954e+05, -2.19664522e+05])
+    array([ 0.00000000e+00, -4.40001497e+02,  9.05594258e+03, -7.51956543e+04,
+            3.35616148e+05, -8.87788711e+05,  1.43224233e+06, -1.38140936e+06,
+            7.30679050e+05, -1.62759822e+05])
 
 
 
@@ -531,15 +533,15 @@ print(x)
     | label\order | 0 | 1  |  3  |    9     |
     +-------------+---+----+-----+----------+
     |      W0     | 0 | 0  |  0  |    0     |
-    |      W1     | 0 | -1 |  9  |   -682   |
-    |      W2     | 0 | 0  | -29 |  13540   |
-    |      W3     | 0 | 0  |  20 | -109114  |
-    |      W4     | 0 | 0  |  0  |  475273  |
-    |      W5     | 0 | 0  |  0  | -1234151 |
-    |      W6     | 0 | 0  |  0  | 1965136  |
-    |      W7     | 0 | 0  |  0  | -1879162 |
-    |      W8     | 0 | 0  |  0  |  988825  |
-    |      W9     | 0 | 0  |  0  | -219664  |
+    |      W1     | 0 | -1 |  9  |   -440   |
+    |      W2     | 0 | 0  | -26 |   9055   |
+    |      W3     | 0 | 0  |  17 |  -75195  |
+    |      W4     | 0 | 0  |  0  |  335616  |
+    |      W5     | 0 | 0  |  0  | -887788  |
+    |      W6     | 0 | 0  |  0  | 1432242  |
+    |      W7     | 0 | 0  |  0  | -1381409 |
+    |      W8     | 0 | 0  |  0  |  730679  |
+    |      W9     | 0 | 0  |  0  | -162759  |
     +-------------+---+----+-----+----------+
 
 
@@ -560,7 +562,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x1a3ef0d3d0>
+    <matplotlib.legend.Legend at 0x1a437dee10>
 
 
 
@@ -584,7 +586,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x1a3f022f90>
+    <matplotlib.legend.Legend at 0x1a438c0c10>
 
 
 
@@ -608,7 +610,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x1a3f106210>
+    <matplotlib.legend.Legend at 0x1a43a8a390>
 
 
 
@@ -633,7 +635,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x1a3f27ef10>
+    <matplotlib.legend.Legend at 0x1a43bede90>
 
 
 
@@ -695,8 +697,8 @@ print(test_error)
 print(train_error)
 ```
 
-    [0.5662523578882789, 0.2643029888805816, 0.2593671515453373, 0.05351310996866754, 0.050762797213742904, 0.04833741944413855, 0.08171611630662265, 0.2621090543897876, 0.5917676041935771, 33.380434185302974]
-    [0.31762892708312246, 0.22532487945826274, 0.20952985929358067, 0.018930992029006347, 0.015323726721909953, 0.01518406953696248, 0.007216818285745008, 0.0012007932881938131, 0.00046564860251404797, 1.755614952261046e-21]
+    [0.6498920057761227, 0.29804783140365465, 0.30113805806870736, 0.02726799080902726, 0.0271024086195014, 0.026776756066662428, 0.04301676452676815, 0.12082159598343782, 0.401395880004449, 14.044977128617717]
+    [0.24198978400252188, 0.14243643318053872, 0.14127787295342403, 0.006370123295882909, 0.006346077518346089, 0.0061639660337249, 0.004435216402598326, 0.0008846725534367012, 0.00025564239293912985, 3.1460399327300388e-21]
 
 
 
@@ -716,7 +718,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x1a3f382310>
+    <matplotlib.legend.Legend at 0x1a43c40190>
 
 
 
@@ -767,27 +769,27 @@ data_100
     <tr>
       <th>0</th>
       <td>0.000000</td>
-      <td>-0.137855</td>
+      <td>0.204449</td>
     </tr>
     <tr>
       <th>1</th>
       <td>0.010101</td>
-      <td>0.038821</td>
+      <td>0.294845</td>
     </tr>
     <tr>
       <th>2</th>
       <td>0.020202</td>
-      <td>0.106376</td>
+      <td>0.059705</td>
     </tr>
     <tr>
       <th>3</th>
       <td>0.030303</td>
-      <td>0.116027</td>
+      <td>0.599017</td>
     </tr>
     <tr>
       <th>4</th>
       <td>0.040404</td>
-      <td>-0.202534</td>
+      <td>-0.021195</td>
     </tr>
     <tr>
       <th>...</th>
@@ -797,27 +799,27 @@ data_100
     <tr>
       <th>95</th>
       <td>0.959596</td>
-      <td>-0.222748</td>
+      <td>-0.388439</td>
     </tr>
     <tr>
       <th>96</th>
       <td>0.969697</td>
-      <td>0.168313</td>
+      <td>0.484030</td>
     </tr>
     <tr>
       <th>97</th>
       <td>0.979798</td>
-      <td>-0.249724</td>
+      <td>-0.015679</td>
     </tr>
     <tr>
       <th>98</th>
       <td>0.989899</td>
-      <td>0.203586</td>
+      <td>0.012487</td>
     </tr>
     <tr>
       <th>99</th>
       <td>1.000000</td>
-      <td>-0.266000</td>
+      <td>0.029097</td>
     </tr>
   </tbody>
 </table>
@@ -834,7 +836,7 @@ plt.scatter(x_100, y_100, marker = "o",c = "r")
 
 
 
-    <matplotlib.collections.PathCollection at 0x1a3f2fc850>
+    <matplotlib.collections.PathCollection at 0x1a43ca1290>
 
 
 
@@ -859,7 +861,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x1a3f6052d0>
+    <matplotlib.legend.Legend at 0x1a43f87890>
 
 
 
@@ -874,13 +876,15 @@ plt.legend()
 
 ```python
 def regularizeRidge(alpha):
-    alpha = math.exp(alpha)
-    print(alpha)
+    if alpha < 0: alpha = math.exp(alpha)    # easy to calculate lambda. if lambda < 0, we calculate it as ln(lambda).
+    else:
+        print("alpha = ",alpha)
+        if alpha != 0: print("ln(alpha) = ", math.log(alpha))
     polynomial = PolynomialFeatures(degree = 9)# quadratic polynomial
     x_transformed = polynomial.fit_transform(X_train.reshape(10,1))
     poly_linear_model = Ridge(alpha = alpha)
     poly_linear_model.fit(x_transformed, Y_train)# train
-    
+
     return poly_linear_model
 
 def chartRidge(alpha):
@@ -896,26 +900,23 @@ def chartRidge(alpha):
 
 
 ```python
-chartRidge(-35) #ln(lambda) = -35, lambda = 6.305116760146989e-16
+chartRidge(0) #, lambda = 0
 ```
 
-    6.305116760146989e-16
-
-
-    /Users/wanghengchao/anaconda3/envs/ML/lib/python3.7/site-packages/sklearn/linear_model/_ridge.py:148: LinAlgWarning: Ill-conditioned matrix (rcond=6.22001e-17): result may not be accurate.
-      overwrite_a=True).T
+    alpha =  0
 
 
 
-![png](./Hengchao_01_42_2.png)
+![png](./Hengchao_01_42_1.png)
 
 
 
 ```python
-chartRidge(-30)    #ln(lambda) = -30, lambda = 9.357622968840175e-14
+chartRidge(0.1)    #ln(lambda) =  -4.6051701860e+0, lambda = 0.1
 ```
 
-    9.357622968840175e-14
+    alpha =  0.1
+    ln(alpha) =  -2.3025850929940455
 
 
 
@@ -924,10 +925,11 @@ chartRidge(-30)    #ln(lambda) = -30, lambda = 9.357622968840175e-14
 
 
 ```python
-chartRidge(-25)    #ln(lambda) = -25, lambda = 1.3887943864964021e-11
+chartRidge(0.01)    #ln(lambda) = -25, lambda = 1.3887943864964021e-11
 ```
 
-    1.3887943864964021e-11
+    alpha =  0.01
+    ln(alpha) =  -4.605170185988091
 
 
 
@@ -936,10 +938,11 @@ chartRidge(-25)    #ln(lambda) = -25, lambda = 1.3887943864964021e-11
 
 
 ```python
-chartRidge(-20)    #ln(lambda) = -20, lambda = 2.061153622438558e-09
+chartRidge(0.001)    #ln(lambda) = -20, lambda = 2.061153622438558e-09
 ```
 
-    2.061153622438558e-09
+    alpha =  0.001
+    ln(alpha) =  -6.907755278982137
 
 
 
@@ -948,10 +951,11 @@ chartRidge(-20)    #ln(lambda) = -20, lambda = 2.061153622438558e-09
 
 
 ```python
-chartRidge(-15)    #ln(lambda) = -15, lambda = 3.059023205018258e-07
+chartRidge(0.0001)    #ln(lambda) = -15, lambda = 3.059023205018258e-07
 ```
 
-    3.059023205018258e-07
+    alpha =  0.0001
+    ln(alpha) =  -9.210340371976182
 
 
 
@@ -979,40 +983,8 @@ def getErrorRidge(i:int,  model) :     # A new error function
 xx = list(range(-30, 0))
 for i in xx:
     model = regularizeRidge(i)
-    getErrorRidge(i+30, model)
+    getErrorRidge(i, model)
 ```
-
-    9.357622968840175e-14
-    2.543665647376923e-13
-    6.914400106940203e-13
-    1.8795288165390832e-12
-    5.109089028063325e-12
-    1.3887943864964021e-11
-    3.775134544279098e-11
-    1.026187963170189e-10
-    2.7894680928689246e-10
-    7.582560427911907e-10
-    2.061153622438558e-09
-    5.602796437537268e-09
-    1.522997974471263e-08
-    4.139937718785167e-08
-    1.1253517471925912e-07
-    3.059023205018258e-07
-    8.315287191035679e-07
-    2.2603294069810542e-06
-    6.14421235332821e-06
-    1.670170079024566e-05
-    4.5399929762484854e-05
-    0.00012340980408667956
-    0.00033546262790251185
-    0.0009118819655545162
-    0.0024787521766663585
-    0.006737946999085467
-    0.01831563888873418
-    0.049787068367863944
-    0.1353352832366127
-    0.36787944117144233
-
 
 
 ```python
@@ -1031,7 +1003,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x1a3ff23c50>
+    <matplotlib.legend.Legend at 0x1a4401ad50>
 
 
 
@@ -1049,13 +1021,10 @@ print("best ln(lambda) = ", best_lambda)
 best_lambda_0 = math.exp(best_lambda)
 print("best lambda = ", best_lambda_0)
 print("In summary, the model which ln(lamdba) = ",best_lambda,", lambda = ",best_lambda_0," has the best test performance.")
-      
-      
-      
-      
+  
 ```
 
-    best ln(lambda) =  -9
-    best lambda =  0.00012340980408667956
-    In summary, the model which ln(lamdba) =  -9 , lambda =  0.00012340980408667956  has the best test performance.
+    best ln(lambda) =  -11
+    best lambda =  1.670170079024566e-05
+    In summary, the model which ln(lamdba) =  -11 , lambda =  1.670170079024566e-05  has the best test performance.
 
