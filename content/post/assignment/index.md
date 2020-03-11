@@ -925,7 +925,7 @@ chartRidge(0.1)    #ln(lambda) =  -4.6051701860e+0, lambda = 0.1
 
 
 ```python
-chartRidge(0.01)    #ln(lambda) = -25, lambda = 1.3887943864964021e-11
+chartRidge(0.01)    #ln(lambda) = -4.605170185988091, lambda = 0.01
 ```
 
     alpha =  0.01
@@ -938,7 +938,7 @@ chartRidge(0.01)    #ln(lambda) = -25, lambda = 1.3887943864964021e-11
 
 
 ```python
-chartRidge(0.001)    #ln(lambda) = -20, lambda = 2.061153622438558e-09
+chartRidge(0.001)    #ln(lambda) = -6.907755278982137, lambda = 0.001
 ```
 
     alpha =  0.001
@@ -951,7 +951,7 @@ chartRidge(0.001)    #ln(lambda) = -20, lambda = 2.061153622438558e-09
 
 
 ```python
-chartRidge(0.0001)    #ln(lambda) = -15, lambda = 3.059023205018258e-07
+chartRidge(0.0001)    #ln(lambda) = -9.210340371976182, lambda = 0.0001
 ```
 
     alpha =  0.0001
