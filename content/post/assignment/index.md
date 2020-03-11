@@ -6,10 +6,7 @@ title: Assignment1
 
 # Assignment1 —— Polynomial regression
 
-social:
-- icon: cv
-  icon_pack: ai
-  link: files/cv.pdf
+[A post]({{< ref "/post/my-page-name/hengchao_01.ipynb" >}})
 
 ```python
 import numpy as np
