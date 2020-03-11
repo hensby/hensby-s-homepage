@@ -4,8 +4,11 @@ title: Real or Not? NLP with Disaster Tweets
 ---
 
 
+
 # Real or Not? NLP with Disaster Tweets   
 Predict which Tweets are about real disasters and which ones are not
+
+{{% staticref "files/Finally.ipynb" "newtab" %}}Download my files{{% /staticref %}}
 
 environment:   
 tensorflow 2.2.0  
