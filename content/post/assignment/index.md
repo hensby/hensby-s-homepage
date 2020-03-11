@@ -6,7 +6,10 @@ title: Assignment1
 
 # Assignment1 —— Polynomial regression
 
-
+social:
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 ```python
 import numpy as np
