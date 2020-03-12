@@ -8,6 +8,12 @@ title: Assignment1
 
 {{% staticref "files/hengchao_01.ipynb" "newtab" %}}Download my files{{% /staticref %}}
 
+
+## assignment
+Hengchao Wang
+1001778272
+
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -35,7 +41,7 @@ res = {}
 
 ```python
 x_sin = np.linspace(0,1,200)
-x = np.linspace(0,1,20)
+x = np.random.uniform(0,1,20)
 d = np.random.normal(loc=0,scale=0.2,size=20)    # N from the normal gaussian distribution 
 print(d)
 y_sin = 2*math.pi*x_sin
@@ -47,14 +53,14 @@ for i in range(20):
     y[i] = math.sin(y[i])+ d[i]
 ```
 
-    [-0.06889813  0.02674846  0.24665862 -0.05187796  0.03988177 -0.21398366
-     -0.13006871 -0.23040466 -0.00998632 -0.03663616 -0.08745814  0.0947099
-      0.1376655   0.33446974 -0.20939689  0.23393522 -0.10303335 -0.08627464
-     -0.29465245 -0.15252956]
-    [0.         0.33069396 0.66138793 0.99208189 1.32277585 1.65346982
-     1.98416378 2.31485774 2.64555171 2.97624567 3.30693964 3.6376336
-     3.96832756 4.29902153 4.62971549 4.96040945 5.29110342 5.62179738
-     5.95249134 6.28318531]
+    [-0.13511273  0.18468915 -0.10182451  0.18664012  0.09603502  0.08406724
+     -0.18322119 -0.1548708  -0.26950395  0.11386059 -0.03197565 -0.31144544
+     -0.15728101  0.04475068 -0.17858001 -0.01282772 -0.01094735 -0.19418843
+      0.25439552  0.09524588]
+    [3.68190648 2.32612886 2.48807293 0.39913587 0.79724111 5.04777546
+     4.82605602 1.176247   3.74257331 2.22257323 2.96313363 4.87029127
+     2.83184172 3.03681068 2.56122951 5.13146468 1.54140014 5.83297157
+     3.19685989 4.36359448]
 
 
 
@@ -66,12 +72,12 @@ plt.scatter(x, y)
 
 
 
-    <matplotlib.collections.PathCollection at 0x1a435fecd0>
+    <matplotlib.collections.PathCollection at 0x1a46019490>
 
 
 
 
-![png](./Hengchao_01_4_1.png)
+![png](./Hengchao_01_5_1.png)
 
 
 
@@ -410,7 +416,7 @@ plt.scatter(X_test, Y_test, c = 'r')
 
 
 
-![png](./Hengchao_01_9_1.png)
+![png](./Hengchao_01_10_1.png)
 
 
 ## b. Using room mean square error, find weights of polynomial regression for order is 0, 1, 3, 9
@@ -567,7 +573,7 @@ plt.legend()
 
 
 
-![png](./Hengchao_01_23_1.png)
+![png](./Hengchao_01_24_1.png)
 
 
 ### weights of polynomial regression for order is 1
@@ -591,7 +597,7 @@ plt.legend()
 
 
 
-![png](./Hengchao_01_25_1.png)
+![png](./Hengchao_01_26_1.png)
 
 
 ### weights of polynomial regression for order is 3
@@ -615,7 +621,7 @@ plt.legend()
 
 
 
-![png](./Hengchao_01_27_1.png)
+![png](./Hengchao_01_28_1.png)
 
 
 ### weights of polynomial regression for order is 9
@@ -640,7 +646,7 @@ plt.legend()
 
 
 
-![png](./Hengchao_01_29_1.png)
+![png](./Hengchao_01_30_1.png)
 
 
 ## e. Draw train error vs test error
@@ -703,7 +709,7 @@ print(train_error)
 
 
 ```python
-xx = np.linspace(0, 9, 10)
+xx = np.linspace(0, 9, 10)     # error chart
 plt.ylim(0 ,1)
 plt.xlim(0,9)
 plt.plot(xx, test_error, label = "$test error$", c = 'r')
@@ -723,7 +729,7 @@ plt.legend()
 
 
 
-![png](./Hengchao_01_35_1.png)
+![png](./Hengchao_01_36_1.png)
 
 
 ## f. Generate 100 more data and fit 9th order model and draw fit
@@ -841,7 +847,7 @@ plt.scatter(x_100, y_100, marker = "o",c = "r")
 
 
 
-![png](./Hengchao_01_38_1.png)
+![png](./Hengchao_01_39_1.png)
 
 
 
@@ -866,7 +872,7 @@ plt.legend()
 
 
 
-![png](./Hengchao_01_39_1.png)
+![png](./Hengchao_01_40_1.png)
 
 
 ## g. Regularize using the sum of weights. 
@@ -907,7 +913,7 @@ chartRidge(0) #, lambda = 0
 
 
 
-![png](./Hengchao_01_42_1.png)
+![png](./Hengchao_01_43_1.png)
 
 
 
@@ -920,29 +926,16 @@ chartRidge(0.1)    #ln(lambda) =  -4.6051701860e+0, lambda = 0.1
 
 
 
-![png](./Hengchao_01_43_1.png)
-
-
-
-```python
-chartRidge(0.01)    #ln(lambda) = -4.605170185988091, lambda = 0.01
-```
-
-    alpha =  0.01
-    ln(alpha) =  -4.605170185988091
-
-
-
 ![png](./Hengchao_01_44_1.png)
 
 
 
 ```python
-chartRidge(0.001)    #ln(lambda) = -6.907755278982137, lambda = 0.001
+chartRidge(0.01)    #ln(lambda) = -25, lambda = 1.3887943864964021e-11
 ```
 
-    alpha =  0.001
-    ln(alpha) =  -6.907755278982137
+    alpha =  0.01
+    ln(alpha) =  -4.605170185988091
 
 
 
@@ -951,7 +944,20 @@ chartRidge(0.001)    #ln(lambda) = -6.907755278982137, lambda = 0.001
 
 
 ```python
-chartRidge(0.0001)    #ln(lambda) = -9.210340371976182, lambda = 0.0001
+chartRidge(0.001)    #ln(lambda) = -20, lambda = 2.061153622438558e-09
+```
+
+    alpha =  0.001
+    ln(alpha) =  -6.907755278982137
+
+
+
+![png](./Hengchao_01_46_1.png)
+
+
+
+```python
+chartRidge(0.0001)    #ln(lambda) = -15, lambda = 3.059023205018258e-07
 ```
 
     alpha =  0.0001
@@ -959,7 +965,7 @@ chartRidge(0.0001)    #ln(lambda) = -9.210340371976182, lambda = 0.0001
 
 
 
-![png](./Hengchao_01_46_1.png)
+![png](./Hengchao_01_47_1.png)
 
 
 ## i. Draw test  and train error according to lamda 
@@ -1008,7 +1014,7 @@ plt.legend()
 
 
 
-![png](./Hengchao_01_50_1.png)
+![png](./Hengchao_01_51_1.png)
 
 
 
