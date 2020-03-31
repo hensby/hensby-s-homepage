@@ -64,10 +64,6 @@ def load_csv(filename, start = 0, end = -1, classRow = -1):
 dataset = load_csv(filename)
 len(dataset)
 ```
-
-
-
-
     150
 
 
@@ -92,11 +88,6 @@ type(developmentSet[1][1])
 ```
 
     developmentSet length: 124 testSet length: 25
-
-
-
-
-
     float
 
 
@@ -336,12 +327,6 @@ getAllPrediction(testSet, bestK, bestM)
 ```
 
     k =  5  distanceMethod =  cosineSimilarity accuracy =  96.0
-
-
-
-
-
-    96.0
 
 
 
