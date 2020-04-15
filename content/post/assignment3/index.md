@@ -7,10 +7,7 @@ title: Assignment3
 
 # Assignment 3 Naive bayes classifier
 ### Hengchao Wang 1001778272
-environment:   
-tensorflow 2.2.0  
-karas 2.3.1   
-sklearn 0.22.1   
+  
 platform: 
 I7-9700k GTX-1080ti
 
