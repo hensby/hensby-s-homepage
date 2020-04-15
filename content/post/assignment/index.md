@@ -1,6 +1,6 @@
 ---
 date: 2020-3-01
-title: Assignment1
+title: Polynomial regression
 ---
 
 

@@ -1,12 +1,13 @@
 ---
 date: 2020-3-31
-title: Assignment2
+title: KNN K-th nearest neighbors
 ---
-{{% staticref "files/hengchao_02.ipynb" "newtab" %}}Download my files{{% /staticref %}}
+
 
 # Assignment2
 ### Hengchao Wang  1001778272
 
+{{% staticref "files/hengchao_02.ipynb" "newtab" %}}Download my files{{% /staticref %}}
 
 ```python
 from csv import reader
