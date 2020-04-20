@@ -24,7 +24,7 @@ from queue import PriorityQueue as PQueue  # priorityQueue
 ```
 
 ## Get data from txt
-Some of my thoughts of this part come from my own homework in my Machine learning class. 
+Some of my thoughts of data pre-processing come from my own homework in my Machine learning class.
 
 
 ```python
