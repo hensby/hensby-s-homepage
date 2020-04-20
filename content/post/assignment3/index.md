@@ -2,12 +2,12 @@
 date: 2020-4-14
 title: Assignment3
 ---
-{{% staticref "files/Hengchao_03.ipynb" "newtab" %}}Download my files{{% /staticref %}}
-
 
 # Assignment 3 Naive bayes classifier
 ### Hengchao Wang 1001778272
  
+ {{% staticref "files/Hengchao_03.ipynb" "newtab" %}}Download my files{{% /staticref %}}
+
 platform: 
 I7-9700k GTX-1080ti
 
