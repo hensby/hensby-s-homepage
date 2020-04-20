@@ -49,7 +49,7 @@ def file_name(file_dir):
 ```python
 # save filename in txt
 def save_name(file_dir, name):
-    f = open(name + '.txt' ,'w')  # 'a' add not reset.
+    f = open(name + '.txt' ,'w')  # 'w' reset every time.
     
     files_name = file_name(file_dir)
     for i in files_name:        
