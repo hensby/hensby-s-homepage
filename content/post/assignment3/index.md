@@ -1,6 +1,6 @@
 ---
 date: 2020-4-14
-title: Assignment3
+title: Naive bayes classifier
 ---
 
 # Assignment 3 Naive bayes classifier
