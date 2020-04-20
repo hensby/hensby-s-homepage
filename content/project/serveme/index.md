@@ -3,7 +3,7 @@ title: Battery fault diagnosis project
 summary: Battery fault diagnosis project based on NASA data.
 tags:
 - Software
-date: "2020-04-27T00:00:00Z"
+date: "2020-03-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
