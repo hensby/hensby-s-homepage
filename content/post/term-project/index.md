@@ -2,10 +2,12 @@
 date: 2020-5-1
 title: Review rating
 ---
-{{% staticref "files/Game Review.ipynb" "newtab" %}}Download my files{{% /staticref %}}
 
 # Data mining Term Project
 ## Hengchao Wang 1001778272
+
+{{% staticref "files/Game Review.ipynb" "newtab" %}}Download my files{{% /staticref %}}
+[Link of my website](http://35.223.125.6:5000/)
 
 ### Reference. 
 BoardGameGeek Reviews Baseline Model
