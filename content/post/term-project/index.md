@@ -10,6 +10,8 @@ title: Review rating
 
 [Link of my website](http://35.223.125.6:5000/)
 
+[Link of Github repository](https://github.com/hensby/ReviewRating)
+
 ### Reference. 
 BoardGameGeek Reviews Baseline Model
 https://www.kaggle.com/ellpeeaxe/boardgamegeek-reviews-baseline-model
