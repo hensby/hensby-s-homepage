@@ -3,7 +3,7 @@ date: 2020-5-1
 title: Review rating
 ---
 
-# Term Project Data mining 
+# Term Project -- Data mining 
 ## Hengchao Wang 1001778272
 
 {{% staticref "files/Game Review.ipynb" "newtab" %}}Download my files{{% /staticref %}}
