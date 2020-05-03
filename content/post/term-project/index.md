@@ -1,6 +1,6 @@
 ---
 date: 2020-5-1
-title: Review rating
+title: Game Review Rating
 ---
 
 # Term Project -- Data mining 
