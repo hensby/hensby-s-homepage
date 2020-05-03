@@ -12,6 +12,8 @@ title: Review rating
 
 [Link of Github repository](https://github.com/hensby/ReviewRating)
 
+[Link of video on youtube](https://www.youtube.com/watch?v=0FBdD4o_hSU)
+
 ### Reference. 
 BoardGameGeek Reviews Baseline Model
 https://www.kaggle.com/ellpeeaxe/boardgamegeek-reviews-baseline-model
