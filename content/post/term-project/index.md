@@ -14,6 +14,8 @@ title: Game Review Rating
 
 [Link of video on youtube](https://www.youtube.com/watch?v=0FBdD4o_hSU)
 
+[Link of kernel on kaggle](https://www.kaggle.com/hensby/rating-review-word2vec-sklearn?scriptVersionId=33791937)
+
 ### Reference. 
 BoardGameGeek Reviews Baseline Model
 https://www.kaggle.com/ellpeeaxe/boardgamegeek-reviews-baseline-model
